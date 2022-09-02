@@ -1,1 +1,3 @@
 # chrisfregly.com
+
+Personal site.
