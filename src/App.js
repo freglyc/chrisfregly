@@ -25,7 +25,7 @@ export default function App() {
             </g>
           </svg>
         </a>
-        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold">👋 I'm Chris,</span> a software engineer that dabbles in design. I'm currently working <a className="font-bold" href="https://weather.com" target="_blank" rel="noreferrer">@TheWeatherCompany</a> and based in San Francisco, CA.</p>
+        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold">👋 I'm Chris,</span> a software engineer who dabbles in design. I'm currently working <a className="font-bold" href="https://weather.com" target="_blank" rel="noreferrer">@TheWeatherCompany</a> and based in San Francisco, CA.</p>
         <div className="flex justify-between text-lg">
           <div className="w-1/2 font-light flex flex-col">
             <h1 className="font-bold mb-2">Socials</h1>
