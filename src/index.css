@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 html, body {
-  font-family: "Helvetica", sans-serif;
-  @apply bg-neutral-100;
-  @apply text-neutral-700;
+  font-family: "Inter", sans-serif;
+  background: black;
+  @apply text-neutral-100;
 }
 
 .test {

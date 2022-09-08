@@ -1,25 +1,45 @@
-import avatar from "./resources/avatar.jpg"
-
 export default function App() {
   return (
-    <div className="flex flex-col items-center m-8 md:m-12">
-      <div className="w-full max-w-lg flex flex-col items-center">
-        <div className="w-24 h-24 flex justify-center items-center rounded-full relative">
-          <img className="w-[5.75rem] h-[5.75rem] rounded-full relative z-10" src={avatar} alt={"avatar"} />
-        </div>
-        <p className="mt-2 font-bold text-lg">Chris Fregly</p>
-        <p className="text-sm text-neutral-500">A creative who codes - based in San Francisco</p>
-        <div className="w-full flex flex-col items-center mt-3">
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://www.linkedin.com/in/chrisfregly" target="_blank" rel="noreferrer">Linkedin</a>
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://github.com/chrisfregly" target="_blank" rel="noreferrer">Github</a>
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://dribbble.com/chrisfregly" target="_blank" rel="noreferrer">Dribbble</a>
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://www.instagram.com/chris.fregly" target="_blank" rel="noreferrer">Instagram</a>
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="mailto:hello@chrisfregly.com">Contact</a>
-        </div>
-        <p className="mt-6">Projects</p>
-        <div className="w-full flex flex-col items-center">
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://ultralitepack.com" target="_blank" rel="noreferrer">Ultralitepack</a>
-          <a className="w-full bg-neutral-800 text-neutral-100 p-3 rounded-md mt-3 text-center" href="https://quibbble.com" target="_blank" rel="noreferrer">Quibbble</a>
+    <div className="flex flex-col flex-grow items-center mx-8 my-16 md:m-36">
+      <div className="w-full max-w-sm md:max-w-xl h-full flex flex-col justify-center">
+        <a className="w-16 md:w-20 mb-16 md:mb-20 cursor-pointer" href={window.location}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.93 298.65">
+            <defs>
+              <linearGradient id="gradient" x1="100%" y1="0%" x2="50%" y2="50%" >
+                <stop offset="0%" stop-color="#1033FF">
+                  <animate attributeName="stop-color" values="#1033FF; #FF4B33; #1033FF" dur="6s" repeatCount="indefinite" />
+                </stop>
+                <stop offset="100%" stop-color="#FF4B33">
+                  <animate attributeName="stop-color" values="#FF4B33; #1033FF; #FF4B33" dur="6s" repeatCount="indefinite" />
+                </stop>
+                <animate attributeName="x1" values="0;0;1;1;0" keyTimes="0;.25;.5;.75;1" dur="32s" repeatCount="indefinite" />
+                <animate attributeName="y1" values="0;1;1;0;0" keyTimes="0;.25;.5;.75;1" dur="32s" repeatCount="indefinite" />
+                <animate attributeName="x2" values="1;1;0;0;1" keyTimes="0;.25;.5;.75;1" dur="32s" repeatCount="indefinite" />
+                <animate attributeName="y2" values="1;0;0;1;1" keyTimes="0;.25;.5;.75;1" dur="32s" repeatCount="indefinite" />
+              </linearGradient>
+            </defs>
+            <g>
+              <path fill="url(#gradient)" d="M234.8,27.05c-12.47,11.18-22.88,24.3-31,39.09-14.37-9.7-33.96-16.32-54.47-16.32-54.95,0-99.51,44.56-99.51,99.51s44.56,99.57,99.51,99.57c11.45,0,22.44-1.92,32.67-5.5v51.66c-10.52,2.36-21.45,3.59-32.67,3.59C66.87,298.65,0,231.77,0,149.32S66.87,0,149.32,0c30.41,0,61.01,9.73,85.48,27.05Z" />
+              <path fill="url(#gradient)" d="M451.93,43.75l-35.2,35.2c-18.01-18.01-42.9-29.16-70.38-29.16-46.37,0-85.22,31.76-96.29,74.66h46.51v49.77h-49.77v124.43h-49.77V149.34C197.03,66.87,263.88,.02,346.35,.02c41.24,0,78.55,16.71,105.58,43.73Z" />
+              <circle fill="url(#gradient)" cx="324.48" cy="273.76" r="24.88" />
+            </g>
+          </svg>
+        </a>
+        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold">👋 I'm Chris,</span> a software engineer that dabbles in design. I'm currently working <a className="font-bold" href="https://weather.com" target="_blank" rel="noreferrer">@TheWeatherCompany</a> and based in San Francisco, CA.</p>
+        <div className="flex justify-between text-lg">
+          <div className="w-1/2 font-light flex flex-col">
+            <h1 className="font-bold mb-2">Socials</h1>
+            <a href="mailto:hello@chrisfregly.com">email</a>
+            <a href="https://linkedin.com/in/chrisfregly" target="_blank" rel="noreferrer">linkedin</a>
+            <a href="https://github.com/chrisfregly" target="_blank" rel="noreferrer">github</a>
+            <a href="https://dribbble.com/chrisfregly" target="_blank" rel="noreferrer">dribbble</a>
+            <a href="https://instagram.com/chris.fregly" target="_blank" rel="noreferrer">instagram</a>
+          </div>
+          <div className="w-1/2 font-light flex flex-col">
+            <h1 className="font-bold mb-2">Projects</h1>
+            <a href="https://quibbble.com" target="_blank" rel="noreferrer">quibbble</a>
+            <a href="https://ultralitepack.com" target="_blank" rel="noreferrer">ultralitepack</a>
+          </div>
         </div>
       </div>
     </div>
