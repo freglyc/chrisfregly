@@ -8,6 +8,30 @@ html, body {
   @apply text-neutral-100;
 }
 
+.link {
+  background:linear-gradient(45deg,#FF4B33 ,#1033FF);
+  background-size: 200% 200%;
+  background-clip: text;
+  animation: gradient 7s ease infinite;
+  transition: .35s;
+}
+
+.link:hover{
+  color: transparent;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
 .test {
   border: 2px solid red
 }
