@@ -9,27 +9,44 @@ html, body {
 }
 
 .link {
-  background:linear-gradient(45deg,#FF4B33 ,#1033FF);
-  background-size: 200% 200%;
+  background: radial-gradient(
+    farthest-corner at 90% 90%,
+    #FF4B33 0%,
+    #1033FF 100%
+  );
+  background-size: 400% 400%;
   background-clip: text;
-  animation: gradient 7s ease infinite;
-  transition: .35s;
+  animation: link-animation 7s ease infinite;
+  transition: .33s;
 }
 
 .link:hover{
   color: transparent;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 100% 50%;
-	}
-	50% {
-		background-position: 0% 50%;
-	}
-	100% {
-		background-position: 100% 50%;
-	}
+@keyframes link-animation {
+	0% { background-position: 100% 50% }
+	50% { background-position: 0% 50% }
+	100% { background-position: 100% 50% }
+}
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate(0.0deg) }
+  100% { transform: rotate(0.0deg) }
 }
 
 .test {

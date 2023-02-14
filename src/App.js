@@ -25,20 +25,20 @@ export default function App() {
             </g>
           </svg>
         </a>
-        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold">👋 I'm Chris,</span> a software engineer who dabbles in design. I'm currently working <a className="link font-bold" href="https://weather.com" target="_blank" rel="noreferrer">@TheWeatherCompany</a> and based in San Francisco, CA.</p>
+        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold"><span class="wave">👋</span> I'm Chris,</span> a software engineer who dabbles in design. I'm currently working <a className="link font-bold" href="https://weather.com" target="_blank" rel="noreferrer">@TheWeatherCompany</a> and based in San Francisco, CA.</p>
         <div className="flex justify-between text-lg">
           <div className="w-1/2 font-light flex flex-col">
             <h1 className="font-bold mb-2">Socials</h1>
-            <a href="mailto:hello@chrisfregly.com"><span className="link">email</span></a>
-            <a href="https://linkedin.com/in/chrisfregly" target="_blank" rel="noreferrer"><span className="link">linkedin</span></a>
-            <a href="https://github.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">github</span></a>
-            <a href="https://dribbble.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">dribbble</span></a>
-            <a href="https://instagram.com/chris.fregly" target="_blank" rel="noreferrer"><span className="link">instagram</span></a>
+            <span><a href="mailto:hello@chrisfregly.com"><span className="link">email</span></a></span>
+            <span><a href="https://linkedin.com/in/chrisfregly" target="_blank" rel="noreferrer"><span className="link">linkedin</span></a></span>
+            <span><a href="https://github.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">github</span></a></span>
+            <span><a href="https://dribbble.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">dribbble</span></a></span>
+            <span><a href="https://instagram.com/chris.fregly" target="_blank" rel="noreferrer"><span className="link">instagram</span></a></span>
           </div>
           <div className="w-1/2 font-light flex flex-col">
             <h1 className="font-bold mb-2">Projects</h1>
-            <a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a>
-            <a href="https://ultralitepack.com" target="_blank" rel="noreferrer"><span className="link">ultralitepack</span></a>
+            <span><a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a></span>
+            <span><a href="https://ultralitepack.com" target="_blank" rel="noreferrer"><span className="link">ultralitepack</span></a></span>
           </div>
         </div>
       </div>
