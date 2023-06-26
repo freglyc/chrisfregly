@@ -40,6 +40,7 @@ export default function Home() {
           <div className="w-1/2 font-light flex flex-col">
             <h1 className="font-bold mb-2">Projects</h1>
             <span><Link to="van-conversion"><span className="link">van conversion</span></Link></span>
+            <span><Link to="the-road"><span className="link">photos from the road</span></Link></span>
             <span><a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a></span>
             <span><a href="https://ultralitepack.com" target="_blank" rel="noreferrer"><span className="link">ultralitepack</span></a></span>
           </div>
