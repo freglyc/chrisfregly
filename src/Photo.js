@@ -41,7 +41,7 @@ export default function Photo({className, image, title, location, links}) {
                             <div className="flex justify-end items-end h-full">
                             {
                                 Object.entries(links).map(([name, url], idx) => {
-                                    return <a key={url} className={ idx+1 === Object.keys(links).length ? linksBaseStyles + "mr-4" : linksBaseStyles + "mr-2" } href={ url } download={ name === "⬇" ? title.toLowerCase().replace(/\s/g, '_') + "_low_res" : false } target="_blank" rel="noreferrer">{ name }</a>
+                                    return <a key={url} className={ idx+1 === Object.keys(links).length ? linksBaseStyles + "mr-4" : linksBaseStyles + "mr-2" } href={ url } download={ name === "↓" ? title.toLowerCase().replace(/\s/g, '_') + "_low_res" : false } target="_blank" rel="noreferrer">{ name }</a>
                                 })
                             }
                             </div>

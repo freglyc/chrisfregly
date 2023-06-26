@@ -27,20 +27,20 @@ export default function TheRoad() {
         </div>
         <div className="z-1 flex flex-wrap md:mb-2">
           <div className="md:flex-[33.333%] md:max-w-[33.333%]">
-            <Photo image={<img src={guadalupe_np_1} alt={"guadalupe np"} />} title={"Guadalupe Peak"} location={"Guadalupe Mountains Natl Park, TX"} links={ {"⬇": "/the-road/guadalupe_np_1.jpg", prints: "https://society6.com/product/guadalupe-peak8395438_print"} } />
-            <Photo className="md:mt-2" image={<img src={lincoln_nf_1} alt={"lincoln nf"} />} title={"Bluff Springs"} location={"Lincoln Natl Forest, NM"} links={ {"⬇": "/the-road/lincoln_nf_1.jpg", prints: "https://society6.com/product/bluff-springs_print"} } />
-            <Photo className="md:mt-2" image={<img src={carlsbad_np_1} alt={"carlsbad np"} />} title={"Natural Entrance Trail"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"⬇": "/the-road/carlsbad_np_1.jpg", prints: "https://society6.com/product/natural-entrance-trail_print"} } />
+            <Photo image={<img src={guadalupe_np_1} alt={"guadalupe np"} />} title={"Guadalupe Peak"} location={"Guadalupe Mountains Natl Park, TX"} links={ {"↓": "/the-road/guadalupe_np_1.jpg", prints: "https://society6.com/product/guadalupe-peak8395438_print"} } />
+            <Photo className="md:mt-2" image={<img src={lincoln_nf_1} alt={"lincoln nf"} />} title={"Bluff Springs"} location={"Lincoln Natl Forest, NM"} links={ {"↓": "/the-road/lincoln_nf_1.jpg", prints: "https://society6.com/product/bluff-springs_print"} } />
+            <Photo className="md:mt-2" image={<img src={carlsbad_np_1} alt={"carlsbad np"} />} title={"Natural Entrance Trail"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"↓": "/the-road/carlsbad_np_1.jpg", prints: "https://society6.com/product/natural-entrance-trail_print"} } />
           </div>
           <div className="md:flex-[33.333%] md:max-w-[33.333%] md:px-2">
-            <Photo image={<img src={angels_peak_1} alt={"angel's peak"} />} title={"Angel's Camp"} location={"Angel's Peak, NM"} links={ {"⬇": "/the-road/angels_peak_1.jpg",  prints: "https://society6.com/product/angels-camp8396831_print"} } />
-            <Photo className="md:mt-2" image={<img src={carlsbad_np_2} alt={"Carlsbad Natl Park"} />} title={"Chandelier"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"⬇": "/the-road/carlsbad_np_2.jpg", prints: "https://society6.com/product/chandelier8396705_print"} } />
-            <Photo className="md:mt-2" image={<img src={white_sands_np_1} alt={"Lincoln Natl Forest"} />} title={"Sunset Dunes"} location={"White Sands Natl Park, NM"} links={ {"⬇": "/the-road/white_sands_np_1.jpg", prints: "https://society6.com/product/sunset-dunes8396743_print"} } />
-            <Photo className="md:mt-2" image={<img src={black_canyon_np_1} alt={"Black Canyon of the Gunnison Natl Park"} />} title={"The Gunnison River"} location={"Black Canyon of the Gunnison Natl Park, CO"} links={ {"⬇": "/the-road/black_canyon_np_1.jpg", prints: "https://society6.com/product/the-gunnison-river_print"} } />
+            <Photo image={<img src={angels_peak_1} alt={"angel's peak"} />} title={"Angel's Camp"} location={"Angel's Peak, NM"} links={ {"↓": "/the-road/angels_peak_1.jpg",  prints: "https://society6.com/product/angels-camp8396831_print"} } />
+            <Photo className="md:mt-2" image={<img src={carlsbad_np_2} alt={"Carlsbad Natl Park"} />} title={"Chandelier"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"↓": "/the-road/carlsbad_np_2.jpg", prints: "https://society6.com/product/chandelier8396705_print"} } />
+            <Photo className="md:mt-2" image={<img src={white_sands_np_1} alt={"Lincoln Natl Forest"} />} title={"Sunset Dunes"} location={"White Sands Natl Park, NM"} links={ {"↓": "/the-road/white_sands_np_1.jpg", prints: "https://society6.com/product/sunset-dunes8396743_print"} } />
+            <Photo className="md:mt-2" image={<img src={black_canyon_np_1} alt={"Black Canyon of the Gunnison Natl Park"} />} title={"The Gunnison River"} location={"Black Canyon of the Gunnison Natl Park, CO"} links={ {"↓": "/the-road/black_canyon_np_1.jpg", prints: "https://society6.com/product/the-gunnison-river_print"} } />
           </div>
           <div className="md:flex-[33.333%] md:max-w-[33.333%]">
-            <Photo image={<img src={mesa_verde_np_1} alt={"mesa verde np"} />} title={"Mesa Verde Skyline"} location={"Mesa Verde Natl Park, CO"} links={ {"⬇": "/the-road/mesa_verde_np_1.jpg", prints: "https://society6.com/product/mesa-verde-skyline_print"} } />
-            <Photo className="md:mt-2" image={<img src={guadalupe_np_2} alt={"guadalupe np"} />} title={"Guadalupe Peak Trail"}location={"Guadalupe Mountains Natl Park, TX"} links={ {"⬇": "/the-road/guadalupe_np_2.jpg", prints: "https://society6.com/product/guadalupe-peak-trail_print"} } />
-            <Photo className="md:mt-2" image={<img src={carlsbad_np_3} alt={"carlsbad np"} />} title={"Another World"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"⬇": "/the-road/carlsbad_np_3.jpg", prints: "https://society6.com/product/another-world8396718_print"} } />
+            <Photo image={<img src={mesa_verde_np_1} alt={"mesa verde np"} />} title={"Mesa Verde Skyline"} location={"Mesa Verde Natl Park, CO"} links={ {"↓": "/the-road/mesa_verde_np_1.jpg", prints: "https://society6.com/product/mesa-verde-skyline_print"} } />
+            <Photo className="md:mt-2" image={<img src={guadalupe_np_2} alt={"guadalupe np"} />} title={"Guadalupe Peak Trail"}location={"Guadalupe Mountains Natl Park, TX"} links={ {"↓": "/the-road/guadalupe_np_2.jpg", prints: "https://society6.com/product/guadalupe-peak-trail_print"} } />
+            <Photo className="md:mt-2" image={<img src={carlsbad_np_3} alt={"carlsbad np"} />} title={"Another World"} location={"Carlsbad Caverns Natl Park, NM"} links={ {"↓": "/the-road/carlsbad_np_3.jpg", prints: "https://society6.com/product/another-world8396718_print"} } />
           </div>
         </div>
       </div>
