@@ -29,11 +29,6 @@ export default function VanConversion() {
           <img src={vc5} alt={"van conversion 5"} />
           <img src={vc6} alt={"van conversion 6"} />
         </div>
-        <div className="w-full flex items-center justify-center p-8">
-          <p className="italic font-extralight font-serif text-sm">
-            It's been a goal of mine to convert a van into an RV for quite some time. So five years of planning and five months of work later and I can finally call this home. 
-          </p>
-        </div>
       </div>
     )
   }
