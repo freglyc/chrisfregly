@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-grow items-center mx-8 my-16 md:m-36">
-      <div className="w-full max-w-sm md:max-w-xl h-full flex flex-col justify-center">
-        <Link className="w-16 md:w-20 mb-16 md:mb-20 cursor-pointer" to="/">
+    <div className="flex flex-col items-center flex-grow mx-8 my-16 md:m-36">
+      <div className="flex flex-col justify-center w-full h-full max-w-sm md:max-w-xl">
+        <Link className="w-16 mb-16 cursor-pointer md:w-20 md:mb-20" to="/">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.93 298.65">
             <defs>
               <linearGradient id="gradient" x1="100%" y1="0%" x2="50%" y2="50%" >
@@ -27,18 +27,18 @@ export default function Home() {
             </g>
           </svg>
         </Link>
-        <p className="text-xl md:text-3xl font-light mb-16 md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a software engineer who dabbles in design. I'm currently traveling and working full-time from my self converted campervan.</p>
+        <p className="mb-16 text-xl font-light md:text-3xl md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a software engineer who dabbles in design. SF, CA based but a nomad at heart, I'm often found traveling around in my self converted campervan.</p>
         <div className="flex justify-between text-lg">
-          <div className="w-1/2 font-light flex flex-col">
-            <h1 className="font-bold mb-2">Socials</h1>
+          <div className="flex flex-col w-1/2 font-light">
+            <h1 className="mb-2 font-bold">Socials</h1>
             <span><a href="mailto:hello@chrisfregly.com"><span className="link">email</span></a></span>
             <span><a href="https://linkedin.com/in/chrisfregly" target="_blank" rel="noreferrer"><span className="link">linkedin</span></a></span>
             <span><a href="https://github.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">github</span></a></span>
             <span><a href="https://dribbble.com/chrisfregly" target="_blank" rel="noreferrer"><span className="link">dribbble</span></a></span>
             <span><a href="https://instagram.com/chris.fregly" target="_blank" rel="noreferrer"><span className="link">instagram</span></a></span>
           </div>
-          <div className="w-1/2 font-light flex flex-col">
-            <h1 className="font-bold mb-2">Projects</h1>
+          <div className="flex flex-col w-1/2 font-light">
+            <h1 className="mb-2 font-bold">Projects</h1>
             <span><Link to="van-conversion"><span className="link">van conversion</span></Link></span>
             <span><Link to="the-road"><span className="link">photos from the road</span></Link></span>
             <span><a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a></span>
