@@ -27,7 +27,7 @@ export default function Home() {
             </g>
           </svg>
         </Link>
-        <p className="mb-16 text-xl font-light md:text-3xl md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a software engineer who dabbles in design. SF, CA based but a nomad at heart, I'm often found traveling around in my self converted campervan.</p>
+        <p className="mb-16 text-xl font-light md:text-3xl md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a San Francisco, CA based software engineer. Also a nomad at heart, I'm often found traveling around in my self converted campervan.</p>
         <div className="flex justify-between text-lg">
           <div className="flex flex-col w-1/2 font-light">
             <h1 className="mb-2 font-bold">Socials</h1>
