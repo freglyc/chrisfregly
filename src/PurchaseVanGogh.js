@@ -44,8 +44,8 @@ const PurchaseVanGogh = () => {
         I converted this van into a camper back in 2023 and then, up until recently, traveled 
         all around the US, Canada, and Mexico. It's been a great home 
         and remote office while on road and has allowed me to experience so 
-        much of North America while also maintaining a full-time remote job. 
-        I have been extremely careful to maintain this camper van 
+        much of North America while also working a full-time remote job. 
+        I have been extremely careful to maintain this camper van over the years
         and have put a lot of love into this project.
         </p>
 
