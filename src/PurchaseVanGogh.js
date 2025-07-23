@@ -14,7 +14,7 @@ const PurchaseVanGogh = () => {
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
           <div className="text-center text-white">
             <h1 className="text-3xl font-bold md:text-5xl">2020 RAM ProMaster 1500 Camper Van</h1>
-            <p className="mt-2 text-lg">High Roof · 136&quot; Wheelbase · 75k Miles · Asking $52k OBO</p>
+            <p className="mt-2 text-lg">High Roof · 136&quot; Wheelbase · 75k Miles · Asking $53k OBO</p>
           </div>
         </div>
       </div>
