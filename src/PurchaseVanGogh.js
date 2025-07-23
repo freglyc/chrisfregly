@@ -24,7 +24,7 @@ const PurchaseVanGogh = () => {
       <div className="p-4 bg-yellow-100 border-l-4 border-yellow-500">
           <p>
             View all photos of the van at: <a
-              href="https://chrisfregly.com/van-gogh" target="_blank"
+              href="https://chrisfregly.com/van-gogh" target="_blank" rel="noopener"
               className="font-semibold underline"
             >https://chrisfregly.com/van-gogh-walkthrough</a>
           </p>
@@ -133,7 +133,7 @@ const PurchaseVanGogh = () => {
         <div className="p-4 bg-yellow-100 border-l-4 border-yellow-500">
           <p>
             View all photos of the van at: <a
-              href="https://chrisfregly.com/van-gogh" target="_blank"
+              href="https://chrisfregly.com/van-gogh" target="_blank" rel="noopener"
               className="font-semibold underline"
             >https://chrisfregly.com/van-gogh-walkthrough</a>
           </p>
