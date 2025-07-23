@@ -40,7 +40,7 @@ export default function Home() {
           <div className="flex flex-col w-1/2 font-light">
             <h1 className="mb-2 font-bold">Projects</h1>
             <span><a href="https://lightroom.adobe.com/shares/762a60f0aae74cd7a0c07d55debcbeca" target="_blank" rel="noreferrer"><span className="link">van conversion</span></a></span>
-            <span><a href="https://www.bobbooks.co.uk/bookshop/two-years-in-a-van" target="_blank" rel="noreferrer"><span className="link">two years in a van</span></a></span>
+            <span><a href="https://www.bobbooks.co.uk/bookshop/two-years-in-a-van-v2-2" target="_blank" rel="noreferrer"><span className="link">two years in a van</span></a></span>
             <span><a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a></span>
           </div>
         </div>
