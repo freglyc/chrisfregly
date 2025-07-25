@@ -101,7 +101,7 @@ const PurchaseVanGogh = () => {
         ]} />
 
         <Section title="🛏️ Bed" items={[
-          "~Full-size 8” memory foam mattress (slightly trimmed)",
+          "~Full-size 8” thick memory foam mattress (shortened to fit the van)",
           "White/red reading lights w/ USB outlets",
           "Sliding RV side windows w/ insulated window covers",
           "Insulated window covers for all front windows"
