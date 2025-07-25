@@ -66,11 +66,11 @@ const PurchaseVanGogh = () => {
         ]} />
 
         <Section title="🏕️ Camper Features">
-          <p className="mb-2 font-semibold">Minor quirks:</p>
+          <p className="mb-2 font-semibold">Minor issues:</p>
           <ul className="mb-4 list-disc list-inside">
             <li>A couple scuffs on cabinets and floors</li>
-            <li>Bench seat rattles on bumpy roads</li>
-            <li>Bench seat cushion needs replacing</li>
+            <li>Bench seat can rattle on bumpy roads</li>
+            <li>Bench seat cushion is well worn</li>
           </ul>
         </Section>
 
