@@ -127,7 +127,7 @@ const PurchaseVanGogh = () => {
         <p>
           Thanks for reading! I'd love to pass this van on to someone who will
           make good use of it. I've already priced the van below what I put into it but 
-          might be willing to negotiate the price some if it will go to a good home.
+          am willing to negotiate the price some if it will go to a good home.
         </p>
 
         <div className="p-4 bg-yellow-100 border-l-4 border-yellow-500">
