@@ -183,9 +183,9 @@ const PurchaseVanGogh = () => {
                 600W of rigid solar panels have been mounted to the roof rack and provide enough solar to remain fully off-grid indefinitely. 
               </p>
             </ExpandableText>
-            <ExpandableText title="Alternator Charging">
+            <ExpandableText title="120V Outlets">
               <p>
-                While 600W of solar should keep you topped up, in the event some extra power is needed, turn on the DC-DC charge controller and charge your house batteries while driving.
+                Two 120V outlets allow you to stay powered. Charge heavy duty gear such as laptops and cameras or even run an InstaPot.
               </p>
             </ExpandableText>
             <ExpandableText last={true} title="Full Victron Setup">
