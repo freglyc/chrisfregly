@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import hero from "./resources/vangogh/hero.jpg"
-import hero2 from "./resources/vangogh/hero2.jpg"
 import van1 from "./resources/vangogh/van1.jpg"
 import van2 from "./resources/vangogh/van2.jpg"
 import van3 from "./resources/vangogh/van3.jpg"
@@ -13,19 +12,25 @@ import van7 from "./resources/vangogh/van7.jpg"
 import van8 from "./resources/vangogh/van8.jpg"
 import van9 from "./resources/vangogh/van9.jpg"
 import van10 from "./resources/vangogh/van10.jpg"
+import carousel1 from "./resources/vangogh/carousel1.jpg"
+import carousel2 from "./resources/vangogh/carousel2.jpg"
+import carousel3 from "./resources/vangogh/carousel3.jpg"
+import carousel4 from "./resources/vangogh/carousel4.jpg"
+import carousel5 from "./resources/vangogh/carousel5.jpg"
 
-const photos = [
-  van1,
-  van2,
-  van3,
-  van4,
-  van5,
-  van6,
-  van7,
-  van8
-];
+const photos = [van1, van2, van3, van4, van5, van6, van7, van8];
+
+const carousel = [carousel1, carousel2, carousel3, carousel4, carousel5];
 
 const PurchaseVanGogh = () => {
+
+  const [current, setCurrent] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % carousel.length);
+    }, 3500);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="font-sans text-gray-800 bg-slate-50">
 
@@ -58,7 +63,19 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="overflow-hidden w-0 md:w-[24em]">
-          <img src={hero} alt="hero" />
+          <div className="relative w-full">
+            {carousel.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Slide ${index}`}
+                className={`w-full h-auto object-contain transition-opacity duration-1000 ease-in-out absolute top-0 left-0 ${
+                  index === current ? 'opacity-100 z-10' : 'opacity-0 z-0'
+                }`}
+              />
+            ))}
+            <img alt="hidden" src={carousel1} className='relative opacity-0'/> 
+          </div>
         </div>
       </div>
 
@@ -196,8 +213,8 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <img className="w-0 lg:w-[24em]" src={van10} alt='van 10'/>
-          <img className="w-0 lg:w-[24em]" src={van9} alt='van 9'/>
+          <img className="w-0 lg:w-[24em]" src={van9} alt='van 10'/>
+          <img className="w-0 lg:w-[24em]" src={van10} alt='van 9'/>
         </div>
       </div>
 
@@ -211,7 +228,7 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="overflow-hidden w-0 md:w-[36em]">
-          <img src={hero2} alt='hero 2'/>
+          <img src={hero} alt='hero 2'/>
         </div>
       </div>
 
