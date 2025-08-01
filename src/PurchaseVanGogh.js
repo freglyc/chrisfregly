@@ -216,11 +216,11 @@ const PurchaseVanGogh = () => {
       </div>
 
       {/* Footer */}
-      <footer className="flex justify-between w-full px-16 py-8 text-sm text-center bg-orange-200 text-slate-700">
+      <footer className="flex justify-between w-full p-8 text-sm text-center bg-orange-200 text-slate-700">
         <div>
           &copy; 2025 Chris Fregly
         </div>
-        <div className="flex text-2xl">
+        <div className="flex justify-center h-full text-2xl">
           <a href="https://www.instagram.com/chris.fregly" target="_blank" rel="noreferrer"><FaInstagram className='mr-1'/></a>
           <a href="https://www.youtube.com/@chris.fregly" target="_blank" rel="noreferrer"><FaYoutube /></a>
         </div>
