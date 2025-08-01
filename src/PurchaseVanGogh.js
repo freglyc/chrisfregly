@@ -58,7 +58,7 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="overflow-hidden w-0 md:w-[24em]">
-          <img src={hero} />
+          <img src={hero} alt="hero" />
         </div>
       </div>
 
@@ -69,7 +69,7 @@ const PurchaseVanGogh = () => {
             <div key={idx} className="overflow-hidden transition duration-300 shadow aspect-w-1 aspect-h-1 hover:shadow-xl">
               <img
                 src={src}
-                alt={`Photo ${idx + 1}`}
+                alt={`van ${idx + 1}`}
                 className="object-cover w-full h-full"
                 loading="lazy"
               />
@@ -196,8 +196,8 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <img className="w-0 lg:w-[24em]" src={van10}/>
-          <img className="w-0 lg:w-[24em]" src={van9}/>
+          <img className="w-0 lg:w-[24em]" src={van10} alt='van 10'/>
+          <img className="w-0 lg:w-[24em]" src={van9} alt='van 9'/>
         </div>
       </div>
 
@@ -211,7 +211,7 @@ const PurchaseVanGogh = () => {
           </div>
         </div>
         <div className="overflow-hidden w-0 md:w-[36em]">
-          <img src={hero2} />
+          <img src={hero2} alt='hero 2'/>
         </div>
       </div>
 
