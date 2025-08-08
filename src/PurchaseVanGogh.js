@@ -222,7 +222,7 @@ const PurchaseVanGogh = () => {
       <div className="flex items-center justify-center w-full h-full px-4 py-8 md:px-16">
         <div className="flex flex-col px-12">
           <h1 className="font-serif text-4xl italic text-slate-700">—Van Gogh</h1>
-          <h2 className="font-serif text-2xl italic opacity-50">asking price of $53,000</h2>
+          <h2 className="font-serif text-2xl italic opacity-50">asking price of $48,000</h2>
           <div className="pt-12">
             <a href="mailto:purchase-van-gogh@chrisfregly.com"><div className="p-4 font-serif italic text-center text-white bg-orange-600 w-36">Inquire Now</div></a>
           </div>
