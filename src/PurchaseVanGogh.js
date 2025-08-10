@@ -99,6 +99,34 @@ const PurchaseVanGogh = () => {
       <div id="specifications" className="flex justify-center w-full px-4 py-8 bg-orange-200 text-slate-700">
         <div className="lg:mt-12 lg:mr-16">
           <h1 className="w-[8em] md:w-full mb-4 font-serif text-4xl italic">—Fully Off-Grid and Built to Last</h1>
+          <div className='my-4'>
+            <h2 className="mb-4 font-serif text-2xl">Exterior Specifications</h2>
+            <ExpandableText title="Van - 75k miles">
+              <p>
+                This camper was built on top of a high roof 2020 RAM ProMaster 1500 136" wheelbase van and 
+                has been registered as a Class B camper in the state of California. 
+                <br/><br/>
+                The van has been driven 75k miles and had a transmission rebuilt at 63k miles. Clean
+                title in hand and CarFax report available upon request. 
+              </p>
+            </ExpandableText>
+            <ExpandableText title="Roof Rack">
+              <p>
+                A low profile Unistrut roof rack has been attached to factory mounting points and provides space to attach
+                solar panels and a Starlink mount.
+              </p>
+            </ExpandableText>
+            <ExpandableText title="Side Windows">
+              <p>
+                Small sliding side windows lie just above the bed and provide ventilation to the interior of the van. The windows also contain a built in bug mess to keep critters out.
+              </p>
+            </ExpandableText>
+            <ExpandableText last={true} title="Bug Netting">
+              <p>
+                A bug net has been installed across the main side sliding door to keep critters out. It can also be rolled up and stored when not in use. 
+              </p>
+            </ExpandableText>
+          </div>
           <div>
             <h2 className="mb-4 font-serif text-2xl">Interior Specifications</h2>
             <ExpandableText title="High Speed Internet">
@@ -157,34 +185,6 @@ const PurchaseVanGogh = () => {
             <ExpandableText last={true} title="Bedside Lights & Outlets">
               <p>
                 Bedside reading lights and outlets allow you to wind down the day with a book while also keeping your portable electronics charged and ready for the next day. 
-              </p>
-            </ExpandableText>
-          </div>
-          <div className='my-4'>
-            <h2 className="mb-4 font-serif text-2xl">Exterior Specifications</h2>
-            <ExpandableText title="Chassis">
-              <p>
-                This camper was built on top of a high roof 2020 RAM ProMaster 1500 136" wheelbase van and 
-                has been registered as a Class B camper in the state of California. 
-                <br/><br/>
-                The van has been driven 75k miles and had a transmission rebuilt at 63k miles. 
-                All vehicle upkeep has been done at manufacturer recommended intervals.
-              </p>
-            </ExpandableText>
-            <ExpandableText title="Roof Rack">
-              <p>
-                A low profile Unistrut roof rack has been attached to factory mounting points and provides space to attach
-                solar panels and a Starlink mount.
-              </p>
-            </ExpandableText>
-            <ExpandableText title="Side Windows">
-              <p>
-                Small sliding side windows lie just above the bed and provide ventilation to the interior of the van. The windows also contain a built in bug mess to keep critters out.
-              </p>
-            </ExpandableText>
-            <ExpandableText last={true} title="Bug Netting">
-              <p>
-                A bug net has been installed across the main side sliding door to keep critters out. It can also be rolled up and stored when not in use. 
               </p>
             </ExpandableText>
           </div>
