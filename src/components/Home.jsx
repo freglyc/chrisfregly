@@ -27,7 +27,7 @@ export default function Home() {
             </g>
           </svg>
         </Link>
-        <p className="mb-16 text-xl font-light md:text-3xl md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a San Francisco, CA based software engineer. Also a nomad at heart, I'm often found traveling around in my self converted campervan.</p>
+        <p className="mb-16 text-xl font-light md:text-3xl md:mb-20"><span className="font-bold"><span className="wave">👋</span> I'm Chris,</span> a San Francisco, CA based software engineer. Also a nomad at heart, I'm often found exploring North America in a self-converted vehicle.</p>
         <div className="flex justify-between text-lg">
           <div className="flex flex-col w-1/2 font-light">
             <h1 className="mb-2 font-bold">Socials</h1>
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col w-1/2 font-light">
             <h1 className="mb-2 font-bold">Projects</h1>
-            <span><a href="https://www.chrisfregly.com/purchase-van-gogh" target="_blank" rel="noreferrer"><span className="link">‼️van for sale‼️</span></a></span>
+            <span><a href="https://www.chrisfregly.com/van-gogh" target="_blank" rel="noreferrer"><span className="link">van conversion</span></a></span>
             <span><a href="https://www.bobbooks.co.uk/bookshop/two-years-in-a-van-v2-2" target="_blank" rel="noreferrer"><span className="link">two years in a van</span></a></span>
             <span><a href="https://quibbble.com" target="_blank" rel="noreferrer"><span className="link">quibbble</span></a></span>
           </div>
